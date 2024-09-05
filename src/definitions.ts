@@ -8,6 +8,7 @@ export interface SmsManagerPlugin {
 
 }
 
+
 export interface SmsSendOptions {
     numbers: string[];
     text: string;
